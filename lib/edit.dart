@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class Finance1 extends StatelessWidget {
-  Finance1({
+class edit extends StatelessWidget {
+  edit({
     Key key,
   }) : super(key: key);
   @override
@@ -224,7 +224,7 @@ class Finance1 extends StatelessWidget {
           Transform.translate(
             offset: Offset(211.5, 258.0),
             child: SizedBox(
-              width: 32.0,
+              width: 27.0,
               height: 25.0,
               child: Text(
                 'June',
