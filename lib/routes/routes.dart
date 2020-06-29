@@ -6,6 +6,9 @@ import 'package:WHM/pages/ema/1admin/deparment/management/mang1.dart';
 import 'package:WHM/pages/ema/1admin/deparment/management/mang2.dart';
 import 'package:WHM/pages/ema/1admin/deparment/technical/tech1.dart';
 import 'package:WHM/pages/ema/1admin/deparment/technical/tech2.dart';
+import 'package:WHM/pages/ema/3employee/month/empmonth1.dart';
+import 'package:WHM/pages/ema/3employee/month/empmonth2.dart';
+import 'package:WHM/pages/ema/3employee/week/empweek.dart';
 import 'package:flutter/material.dart';
 
 class Routes {
@@ -18,8 +21,9 @@ class Routes {
   static const String mang2 = '/mang2';
   static const String tech1 = '/tech1';
   static const String tech2 = '/tech2';
-  // static const String signup = '/signup';
-  // static const String check = '/check';
+  static const String empm1 = '/empm1';
+  static const String empm2 = '/empm2';
+  static const String empw = '/empw';
 
   /// Setting the routes screens
   static Map<String, Widget Function(BuildContext)> routes() => {
@@ -30,7 +34,10 @@ class Routes {
         mang2: (ctx) => Mang2(),
         tech1: (ctx) => Tech1(),
         tech2: (ctx) => Tech2(),
-        // bar: (ctx) => SimpleBarChart([], ),
+        empm1: (ctx) => Empmonth1(),
+        empm2: (ctx) => Empmonth2(),
+        empw: (ctx) => Empweek(),
+
         // login: (ctx) => LoginPage(),
         // signup: (ctx) => SignUpPage(),
         // check: (ctx) => CheckPage(),

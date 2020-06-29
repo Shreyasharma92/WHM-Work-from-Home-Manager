@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-// import 'empmonth1.dart';
 
-class empmonth2 extends StatelessWidget {
-  empmonth2({
+class Empmonth2 extends StatelessWidget {
+  Empmonth2({
     Key key,
   }) : super(key: key);
   @override
@@ -13,7 +12,7 @@ class empmonth2 extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Transform.translate(
-            offset: Offset(39.0, 110.0),
+            offset: Offset(79.0, 282.0),
             child: Text(
               'Week ',
               style: TextStyle(
@@ -25,7 +24,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(124.0, 109.0),
+            offset: Offset(164.0, 281.0),
             child: Text(
               'Month',
               style: TextStyle(
@@ -38,14 +37,14 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(118.0, 131.0),
+            offset: Offset(158.0, 303.0),
             child: SvgPicture.string(
-              _svg_bioivv,
+              _svg_illdbh,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(295.0, 67.0),
+            offset: Offset(335.0, 239.0),
             child: Text(
               'WFH',
               style: TextStyle(
@@ -57,7 +56,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(228.0, 67.0),
+            offset: Offset(268.0, 239.0),
             child: Text(
               'Office',
               style: TextStyle(
@@ -69,7 +68,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(178.0, 67.0),
+            offset: Offset(218.0, 239.0),
             child: Text(
               'Off',
               style: TextStyle(
@@ -81,7 +80,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(210.0, 69.0),
+            offset: Offset(250.0, 241.0),
             child: Container(
               width: 15.0,
               height: 15.0,
@@ -93,7 +92,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(158.0, 69.0),
+            offset: Offset(198.0, 241.0),
             child: Container(
               width: 15.0,
               height: 15.0,
@@ -104,7 +103,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(274.0, 69.0),
+            offset: Offset(314.0, 241.0),
             child: Container(
               width: 15.0,
               height: 15.0,
@@ -115,7 +114,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(246.2, 243.85),
+            offset: Offset(286.2, 415.85),
             child: Container(
               width: 40.0,
               height: 40.0,
@@ -126,7 +125,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(290.2, 243.85),
+            offset: Offset(330.2, 415.85),
             child: Container(
               width: 40.0,
               height: 40.0,
@@ -137,7 +136,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(203.2, 243.85),
+            offset: Offset(243.2, 415.85),
             child: Container(
               width: 40.0,
               height: 40.0,
@@ -148,7 +147,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(156.2, 243.85),
+            offset: Offset(196.2, 415.85),
             child: Container(
               width: 40.0,
               height: 40.0,
@@ -159,18 +158,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(24.2, 290.85),
-            child: Container(
-              width: 40.0,
-              height: 40.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(20.0, 20.0)),
-                color: const Color(0xffc4c1c1),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(40.93, 212.74),
+            offset: Offset(80.93, 384.74),
             child: Stack(
               children: <Widget>[
                 Transform.translate(
@@ -293,7 +281,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(87.06, 451.09),
+            offset: Offset(127.06, 623.09),
             child: Stack(
               children: <Widget>[
                 Stack(
@@ -314,7 +302,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(172.58, 255.85),
+            offset: Offset(212.58, 427.85),
             child: Stack(
               children: <Widget>[
                 Text(
@@ -331,7 +319,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(134.06, 351.64),
+            offset: Offset(174.06, 523.64),
             child: Stack(
               children: <Widget>[
                 Transform.translate(
@@ -415,7 +403,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(219.06, 398.72),
+            offset: Offset(259.06, 570.72),
             child: Stack(
               children: <Widget>[
                 Stack(
@@ -637,7 +625,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(84.92, 351.64),
+            offset: Offset(124.92, 523.64),
             child: Stack(
               children: <Widget>[
                 Text(
@@ -653,26 +641,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(31.92, 351.64),
-            child: Stack(
-              children: <Widget>[
-                Transform.translate(
-                  offset: Offset(3.0, 0.0),
-                  child: Text(
-                    '12',
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
-                      fontSize: 12,
-                      color: const Color(0xff000000),
-                    ),
-                    textAlign: TextAlign.left,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(219.58, 303.54),
+            offset: Offset(259.58, 475.54),
             child: Stack(
               children: <Widget>[
                 Stack(
@@ -724,7 +693,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(133.51, 303.54),
+            offset: Offset(173.51, 475.54),
             child: Text(
               '7',
               style: TextStyle(
@@ -736,7 +705,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(87.51, 303.54),
+            offset: Offset(127.51, 475.54),
             child: Text(
               '6',
               style: TextStyle(
@@ -748,20 +717,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(40.51, 303.54),
-            child: Text(
-              '5',
-              style: TextStyle(
-                fontFamily: 'Roboto',
-                fontSize: 12,
-                color: const Color(0xffffffff),
-                fontWeight: FontWeight.w700,
-              ),
-              textAlign: TextAlign.left,
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(179.51, 303.54),
+            offset: Offset(219.51, 475.54),
             child: Text(
               '8',
               style: TextStyle(
@@ -773,7 +729,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(218.58, 255.85),
+            offset: Offset(258.58, 427.85),
             child: Stack(
               children: <Widget>[
                 Transform.translate(
@@ -831,7 +787,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(30.0, 169.55),
+            offset: Offset(70.0, 341.55),
             child: Stack(
               children: <Widget>[
                 // Adobe XD layer: 'Icon_3_' (group)
@@ -890,7 +846,7 @@ class empmonth2 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(147.0, 169.55),
+            offset: Offset(187.0, 341.55),
             child: Stack(
               children: <Widget>[
                 Transform.translate(
@@ -908,26 +864,14 @@ class empmonth2 extends StatelessWidget {
               ],
             ),
           ),
-          Transform.translate(
-            offset: Offset(13.0, 23.0),
-            child:
-                // Adobe XD layer: 'ic_arrow_back' (component)
-                Container(),
-          ),
-          Transform.translate(
-            offset: Offset(301.0, 27.0),
-            child:
-                // Adobe XD layer: 'ic_menu' (component)
-                Container(),
-          ),
         ],
       ),
     );
   }
 }
 
-const String _svg_bioivv =
-    '<svg viewBox="118.0 131.0 70.0 1.0" ><path transform="translate(118.0, 131.0)" d="M 0 0 L 70 0" fill="none" stroke="#000000" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_illdbh =
+    '<svg viewBox="158.0 303.0 70.0 1.0" ><path transform="translate(158.0, 303.0)" d="M 0 0 L 70 0" fill="none" stroke="#000000" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_3vo8nb =
     '<svg viewBox="8.0 6.4 7.4 12.0" ><path transform="translate(-73.6, -173.29)" d="M 89 181.1000061035156 L 87.59999847412109 179.6999969482422 L 81.59999847412109 185.6999969482422 L 87.59999847412109 191.6999969482422 L 89 190.3000030517578 L 84.40000152587891 185.6999969482422 L 89 181.1000061035156 Z" fill="#000000" fill-opacity="0.54" stroke="none" stroke-width="1" stroke-opacity="0.54" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_dbeqpg =

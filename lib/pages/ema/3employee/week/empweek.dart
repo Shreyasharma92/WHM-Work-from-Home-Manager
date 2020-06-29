@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class empweek extends StatelessWidget {
-  empweek({
+class Empweek extends StatelessWidget {
+  Empweek({
     Key key,
   }) : super(key: key);
   @override
@@ -12,7 +12,7 @@ class empweek extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Transform.translate(
-            offset: Offset(171.0, 395.0),
+            offset: Offset(211.0, 519.0),
             child: Text(
               'Confirm',
               style: TextStyle(
@@ -24,7 +24,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(38.0, 109.0),
+            offset: Offset(78.0, 233.0),
             child: Text(
               'Week ',
               style: TextStyle(
@@ -37,7 +37,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(129.0, 109.0),
+            offset: Offset(169.0, 233.0),
             child: Text(
               'Month',
               style: TextStyle(
@@ -49,7 +49,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(295.0, 67.0),
+            offset: Offset(335.0, 191.0),
             child: Text(
               'WFH',
               style: TextStyle(
@@ -61,7 +61,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(228.0, 67.0),
+            offset: Offset(268.0, 191.0),
             child: Text(
               'Office',
               style: TextStyle(
@@ -73,7 +73,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(178.0, 67.0),
+            offset: Offset(218.0, 191.0),
             child: Text(
               'Off',
               style: TextStyle(
@@ -85,14 +85,14 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(36.0, 131.0),
+            offset: Offset(76.0, 255.0),
             child: SvgPicture.string(
-              _svg_8m5j95,
+              _svg_tr6l2r,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 189.0),
+            offset: Offset(106.0, 313.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -103,7 +103,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 244.0),
+            offset: Offset(106.0, 368.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -114,7 +114,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 298.0),
+            offset: Offset(106.0, 422.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -125,7 +125,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(51.0, 298.0),
+            offset: Offset(91.0, 422.0),
             child: Container(
               width: 275.0,
               height: 47.0,
@@ -133,7 +133,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 353.0),
+            offset: Offset(106.0, 477.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -144,7 +144,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 408.0),
+            offset: Offset(106.0, 532.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -155,7 +155,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 462.0),
+            offset: Offset(106.0, 586.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -166,7 +166,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(66.0, 517.0),
+            offset: Offset(106.0, 641.0),
             child: Container(
               width: 245.0,
               height: 47.0,
@@ -178,7 +178,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 51.5, 233.5, 0.0, 1.0),
+                0.0, 1.0, 0.0, 91.5, 357.5, 0.0, 1.0),
             child: Text(
               'Sunday ',
               style: TextStyle(
@@ -191,7 +191,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 51.5, 286.14, 0.0, 1.0),
+                0.0, 1.0, 0.0, 91.5, 410.14, 0.0, 1.0),
             child: Text(
               'Monday ',
               style: TextStyle(
@@ -204,7 +204,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 50.5, 397.33, 0.0, 1.0),
+                0.0, 1.0, 0.0, 90.5, 521.33, 0.0, 1.0),
             child: Text(
               'Wednesday',
               style: TextStyle(
@@ -217,7 +217,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 50.5, 451.76, 0.0, 1.0),
+                0.0, 1.0, 0.0, 90.5, 575.76, 0.0, 1.0),
             child: Text(
               'Thursday',
               style: TextStyle(
@@ -230,7 +230,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 51.5, 503.75, 0.0, 1.0),
+                0.0, 1.0, 0.0, 91.5, 627.75, 0.0, 1.0),
             child: Text(
               'Friday',
               style: TextStyle(
@@ -243,7 +243,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 51.5, 561.27, 0.0, 1.0),
+                0.0, 1.0, 0.0, 91.5, 685.27, 0.0, 1.0),
             child: Text(
               'Saturday',
               style: TextStyle(
@@ -256,7 +256,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 51.5, 340.91, 0.0, 1.0),
+                0.0, 1.0, 0.0, 91.5, 464.91, 0.0, 1.0),
             child: Text(
               'Tuesday',
               style: TextStyle(
@@ -268,7 +268,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(137.98, 203.0),
+            offset: Offset(177.98, 327.0),
             child: Text(
               '28th June, 2020 ',
               style: TextStyle(
@@ -280,7 +280,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(137.98, 256.72),
+            offset: Offset(177.98, 380.72),
             child: Text(
               '29th June, 2020 ',
               style: TextStyle(
@@ -292,7 +292,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(142.94, 422.87),
+            offset: Offset(182.94, 546.87),
             child: Text(
               '2nd July, 2020 ',
               style: TextStyle(
@@ -304,7 +304,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(145.94, 366.88),
+            offset: Offset(185.95, 490.88),
             child: Text(
               '1st July, 2020 ',
               style: TextStyle(
@@ -316,7 +316,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(144.94, 530.77),
+            offset: Offset(184.94, 654.77),
             child: Text(
               '4th July, 2020 ',
               style: TextStyle(
@@ -328,7 +328,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(137.98, 311.8),
+            offset: Offset(177.98, 435.8),
             child: Text(
               '30th June, 2020 ',
               style: TextStyle(
@@ -340,7 +340,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(144.94, 477.04),
+            offset: Offset(184.94, 601.04),
             child: Text(
               '3rd July, 2020 ',
               style: TextStyle(
@@ -352,7 +352,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(210.0, 69.0),
+            offset: Offset(250.0, 193.0),
             child: Container(
               width: 15.0,
               height: 15.0,
@@ -363,7 +363,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(158.0, 69.0),
+            offset: Offset(198.0, 193.0),
             child: Container(
               width: 15.0,
               height: 15.0,
@@ -373,7 +373,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(274.0, 69.0),
+            offset: Offset(314.0, 193.0),
             child: Container(
               width: 15.0,
               height: 15.0,
@@ -383,19 +383,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(13.0, 23.0),
-            child:
-                // Adobe XD layer: 'ic_arrow_back' (component)
-                Container(),
-          ),
-          Transform.translate(
-            offset: Offset(301.0, 27.0),
-            child:
-                // Adobe XD layer: 'ic_menu' (component)
-                Container(),
-          ),
-          Transform.translate(
-            offset: Offset(119.0, 154.0),
+            offset: Offset(159.0, 278.0),
             child: Text(
               '28th June, 2020 - 4th July, 2020',
               style: TextStyle(
@@ -407,7 +395,7 @@ class empweek extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(57.0, 147.55),
+            offset: Offset(97.0, 271.55),
             child:
                 // Adobe XD layer: 'Icon_3_' (group)
                 Stack(
@@ -436,7 +424,7 @@ class empweek extends StatelessWidget {
           ),
           Transform(
             transform: Matrix4(-1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0,
-                0.0, 1.0, 0.0, 318.38, 170.83, 0.0, 1.0),
+                0.0, 1.0, 0.0, 358.38, 294.83, 0.0, 1.0),
             child:
                 // Adobe XD layer: 'Icon_3_' (group)
                 Stack(
@@ -472,8 +460,8 @@ class empweek extends StatelessWidget {
   }
 }
 
-const String _svg_8m5j95 =
-    '<svg viewBox="36.0 131.0 70.0 1.0" ><path transform="translate(36.0, 131.0)" d="M 0 0 L 70 0" fill="none" stroke="#000000" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_tr6l2r =
+    '<svg viewBox="76.0 255.0 70.0 1.0" ><path transform="translate(76.0, 255.0)" d="M 0 0 L 70 0" fill="none" stroke="#000000" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_nzd6v0 =
     '<svg viewBox="8.0 6.4 7.4 12.0" ><path transform="translate(-73.6, -173.29)" d="M 89 181.1000061035156 L 87.59999847412109 179.6999969482422 L 81.59999847412109 185.6999969482422 L 87.59999847412109 191.6999969482422 L 89 190.3000030517578 L 84.40000152587891 185.6999969482422 L 89 181.1000061035156 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_ge3luz =
