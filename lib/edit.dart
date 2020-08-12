@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 
 class edit extends StatelessWidget {
   edit({
@@ -7,60 +7,61 @@ class edit extends StatelessWidget {
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xffffffff),
-      body: Stack(
-        children: <Widget>[
-          Transform.translate(
-            offset: Offset(333.0, 341.0),
-            child: Text(
-              'WFH',
-              style: TextStyle(
-                fontFamily: 'Segoe UI',
-                fontSize: 11,
-                color: const Color(0xff707070),
+    var SvgPicture;
+        return Scaffold(
+          backgroundColor: const Color(0xffffffff),
+          body: Stack(
+            children: <Widget>[
+              Transform.translate(
+                offset: Offset(333.0, 341.0),
+                child: Text(
+                  'WFH',
+                  style: TextStyle(
+                    fontFamily: 'Segoe UI',
+                    fontSize: 11,
+                    color: const Color(0xff707070),
+                  ),
+                  textAlign: TextAlign.left,
+                ),
               ),
-              textAlign: TextAlign.left,
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(282.0, 341.0),
-            child: Text(
-              'Office',
-              style: TextStyle(
-                fontFamily: 'Segoe UI',
-                fontSize: 11,
-                color: const Color(0xff707070),
+              Transform.translate(
+                offset: Offset(282.0, 341.0),
+                child: Text(
+                  'Office',
+                  style: TextStyle(
+                    fontFamily: 'Segoe UI',
+                    fontSize: 11,
+                    color: const Color(0xff707070),
+                  ),
+                  textAlign: TextAlign.left,
+                ),
               ),
-              textAlign: TextAlign.left,
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(264.0, 343.0),
-            child: Container(
-              width: 15.0,
-              height: 11.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(2.0),
-                color: const Color(0xff00539c),
-                border: Border.all(width: 1.0, color: const Color(0xff00539c)),
+              Transform.translate(
+                offset: Offset(264.0, 343.0),
+                child: Container(
+                  width: 15.0,
+                  height: 11.0,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(2.0),
+                    color: const Color(0xff00539c),
+                    border: Border.all(width: 1.0, color: const Color(0xff00539c)),
+                  ),
+                ),
               ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(315.0, 343.0),
-            child: Container(
-              width: 15.0,
-              height: 11.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(2.0),
-                color: const Color(0xff7fceeb),
+              Transform.translate(
+                offset: Offset(315.0, 343.0),
+                child: Container(
+                  width: 15.0,
+                  height: 11.0,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(2.0),
+                    color: const Color(0xff7fceeb),
+                  ),
+                ),
               ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(99.5, 347.5),
-            child: SvgPicture.string(
+              Transform.translate(
+                offset: Offset(99.5, 347.5),
+                child: SvgPicture.string(
               _svg_8uyiz0,
               allowDrawingOutsideViewBox: true,
             ),
